@@ -1,0 +1,12 @@
+apply from: "${rootDir}/gradle/java.gradle"
+
+dependencies {
+    implementation libs.jackson
+    implementation libs.springBootValidation
+    implementation libs.springBootWeb
+    implementation libs.swagger2
+    implementation libs.swaggerUi
+    implementation libs.grpc
+
+    implementation project(':cms-api')
+}

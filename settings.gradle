@@ -1,0 +1,5 @@
+rootProject.name = 'simple-rest-api'
+
+include 'cms-api'
+include 'cms-app'
+include 'cms-core'
